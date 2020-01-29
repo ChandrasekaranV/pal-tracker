@@ -28,7 +28,7 @@ jobs:
         file: "build/libs/pal-tracker.jar"
         skip_cleanup: true
         on:
-          branch: springmvcwithrest
+          branch: master
           #branch: master
     - stage: deploy to cf
       language: bash
